@@ -1,0 +1,17 @@
+.hol-activeButton, div.hol-actionBar .activeButton {
+    padding: 0 15px;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+@media all and (min-width: 768px) {
+    .hol-activeButton, div.hol-actionBar .activeButton {
+        padding: 0 30px;
+        font-size: 1.9rem;
+    }
+}
+
+.hol-actionBar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
